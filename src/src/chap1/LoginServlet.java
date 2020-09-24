@@ -1,4 +1,4 @@
-import java.util.logging.Logger;
+package chap1;
 
 /**
  * @author Amos

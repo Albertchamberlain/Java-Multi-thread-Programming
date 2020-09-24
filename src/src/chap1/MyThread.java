@@ -1,3 +1,5 @@
+package chap1;
+
 /**
  * @author Amos
  */
@@ -5,7 +7,7 @@ public class MyThread extends Thread{
     @Override
     public void run() {
         super.run();
-        System.out.println("MyThread");
+        System.out.println("chap1.MyThread");
     }
 }
 

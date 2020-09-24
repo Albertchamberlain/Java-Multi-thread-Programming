@@ -1,3 +1,5 @@
+package chap1;
+
 /**
  * @author Amos
  */

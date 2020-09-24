@@ -1,3 +1,5 @@
+package chap1;
+
 /**
  * @author Amos
  */
@@ -6,7 +8,7 @@ public class MyThread11 extends Thread{
     public void run()
     {
         for (int i = 0; i <10000 ; i++) {
-            System.out.println("run = "+Thread.currentThread().getName());
+            System.out.println("chap1.run = "+Thread.currentThread().getName());
         }
     }
 }

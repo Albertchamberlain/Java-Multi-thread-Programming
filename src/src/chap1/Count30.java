@@ -1,3 +1,5 @@
+package chap1;
+
 /**
  * @author Amos
  */
@@ -14,13 +16,13 @@ public class Count30 extends Thread{
 
     @Override
     public void run() {
-        System.out.println("run---begin");
+        System.out.println("chap1.run---begin");
         System.out.println("Thread.currentThread().getName() = " + Thread.currentThread().getName());
         System.out.println("Thread.currentThread().isAlive() = " + Thread.currentThread().isAlive());
 
         System.out.println("this.getName() = " + this.getName());
         System.out.println("this.isAlive() = " + this.isAlive());
 
-        System.out.println("run---end");
+        System.out.println("chap1.run---end");
     }
 }
