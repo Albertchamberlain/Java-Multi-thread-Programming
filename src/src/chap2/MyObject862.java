@@ -3,6 +3,7 @@ package chap2;
 /**
  * @author Amos
  */
+//哪个对象拿到了这把锁，哪个进程就可以执行这个对象中的synchronized同步方法
 public class MyObject862 {
     synchronized public void methodA()
     {
@@ -75,3 +76,4 @@ class Run87
         thread86B.start();
     }
 }
+
