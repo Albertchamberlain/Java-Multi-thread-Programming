@@ -5,6 +5,7 @@ package chap2.test4;
  */
 public class Run {
     public static void main(String[] args) {
+
         final ThreadA threadA = new ThreadA();
         threadA.setName("a");
         threadA.start();
